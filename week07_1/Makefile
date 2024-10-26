@@ -22,5 +22,11 @@ problem3 : problem3.o
 problem3.o : problem3.cpp
 	g++ -c problem3.cpp
 
+problem4 : problem4.o
+	g++ -o problem4 problem4.o
+
+problem4.o : problem4.cpp
+	g++ -c problem4.cpp
+
 clean :
 	rm -rf *.o problem1 problem2 problem3 problem4 
